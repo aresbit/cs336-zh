@@ -1,0 +1,8 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+title: CS 336 从零构建语言模型 · 中译版
+description: Language Modeling from Scratch — Stanford CS 336 Chinese Translation
+theme: jekyll-theme-cayman
