@@ -1,11 +1,9 @@
-layout: default
-title: PyTorch 与资源核算
-nav_order: 2
-permalink: /docs/ch02
-nav:
-  prev: ch01
-  next: ch03
 ---
+layout: default
+title: 第2章 PyTorch 与资源核算
+---
+
+[← 上一章：分词](ch01_分词.md) \| [目录](index.md) \| [下一章：架构与超参数 →](ch03_架构与超参数.md)
 
 ## 第02章 PyTorch 与资源核算
 
@@ -361,3 +359,7 @@ for step in range(total_steps):
 6. **梯度累积**是训练中的关键技术，通过时间换空间使得大模型在有限硬件上也能训练。
 
 这些知识不是分散的琐碎——它们构成了一个逻辑闭环：代码表达（einops）决定计算图，计算图产生 FLOPs 和内存访问，硬件特性通过 Roofline 模型决定实际性能，资源核算则告诉我们需要多少 GPU 和多少时间。
+
+---
+
+[← 上一章：分词](ch01_分词.md) \| [目录](index.md) \| [下一章：架构与超参数 →](ch03_架构与超参数.md)

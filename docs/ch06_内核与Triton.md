@@ -1,8 +1,9 @@
-layout: default
-title: 第6章 内核与Triton编程
-prev: ch05_数据与分词.md
-next: ch07_分布式训练.md
 ---
+layout: default
+title: 第6章 内核与 Triton
+---
+
+[← 上一章：GPU 与 TPU 硬件](ch05_GPU与TPU硬件.md) \| [目录](index.md) \| [下一章：并行训练 →](ch07_并行训练.md)
 
 # 第6章 内核与Triton编程
 
@@ -10,7 +11,6 @@ next: ch07_分布式训练.md
 > 主讲: Tatsu Hashimoto
 > 中译稿 — 深度系统编程扩展版
 
-**导航**: [上一章: 数据与分词](ch05_数据与分词.md) | [下一章: 分布式训练](ch07_分布式训练.md)
 
 ## 一、本章概要
 
@@ -950,4 +950,4 @@ def check_accuracy(triton_fn, torch_fn, *inputs, atol=1e-3, rtol=1e-3):
 
 ---
 
-**导航**: [上一章: 数据与分词](ch05_数据与分词.md) | [下一章: 分布式训练](ch07_分布式训练.md)
+[← 上一章：GPU 与 TPU 硬件](ch05_GPU与TPU硬件.md) \| [目录](index.md) \| [下一章：并行训练 →](ch07_并行训练.md)

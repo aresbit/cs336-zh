@@ -1,5 +1,10 @@
-<div style="display:flex; justify-content:space-between; align-items:center; padding:1em 0;">
-  <div><a href="ch03_Transformer架构演进.md">← 第3章 Transformer架构演进</a></div>
+---
+layout: default
+title: 第4章 注意力替代与 MoE
+---
+
+[← 上一章：架构与超参数](ch03_架构与超参数.md) \| [目录](index.md) \| [下一章：GPU 与 TPU 硬件 →](ch05_GPU与TPU硬件.md)
+
   <div><a href="index.md">↑ 目录</a></div>
   <div><a href="ch05_训练优化与微调.md">第5章 训练优化与微调 →</a></div>
 </div>
@@ -528,3 +533,7 @@ DeepSeek v3 还引入了**多 token 预测 (MTP)**:
 译自 CS 336 Lecture 4: Attention Alternatives and Mixture of Experts.<br>
 Tatsu Hashimoto, Stanford University, Spring 2025.
 </p>
+
+---
+
+[← 上一章：架构与超参数](ch03_架构与超参数.md) \| [目录](index.md) \| [下一章：GPU 与 TPU 硬件 →](ch05_GPU与TPU硬件.md)

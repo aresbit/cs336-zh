@@ -1,3 +1,10 @@
+---
+layout: default
+title: 第5章 GPU 与 TPU 硬件
+---
+
+[← 上一章：注意力替代与 MoE](ch04_注意力替代与MoE.md) \| [目录](index.md) \| [下一章：内核与 Triton →](ch06_内核与Triton.md)
+
 # 第五章 GPU 与 TPU 硬件
 
 > 原课程: CS 336 Language Modeling From Scratch, Stanford
@@ -5,7 +12,6 @@
 > 主题: GPUs, TPUs & Hardware for ML
 > 中译稿 — 深度硬件系统扩展版
 
-**导航**: [上一章: 后训练与推理](ch04_后训练与推理.md) | [下一章: 分布式训练](ch06_分布式训练.md)
 
 ---
 
@@ -728,4 +734,4 @@ FlashAttention 不仅是注意力机制的一个优秀实现, 更代表了一种
 
 ---
 
-**导航**: [上一章: 后训练与推理](ch04_后训练与推理.md) | [下一章: 分布式训练](ch06_分布式训练.md)
+[← 上一章：注意力替代与 MoE](ch04_注意力替代与MoE.md) \| [目录](index.md) \| [下一章：内核与 Triton →](ch06_内核与Triton.md)
